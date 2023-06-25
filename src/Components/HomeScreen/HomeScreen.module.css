@@ -1,0 +1,12 @@
+.homescreen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    /* align-items: flex-end; */
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
