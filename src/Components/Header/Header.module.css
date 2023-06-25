@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.625rem;
+  
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+.imageYoutube{
+    width: 8.625rem;
+    height: 4.25rem;
+}
+
+.imageAvatar{
+
+    width: 4.625rem;
+    height: 3.25rem;
+    margin-right: 80px;
+
+}
+#form{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 9.625rem;
+
+}
+input{
+    width: 29.16rem;
+    height: 2.875rem;
+    border: none;
+    padding: 10px;
+}
+button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
