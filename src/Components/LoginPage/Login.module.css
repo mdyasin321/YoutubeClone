@@ -1,0 +1,23 @@
+.loginContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.img{
+    width: 138px;
+    height: 90px;
+    object-fit: contain;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    /* it will remove border from button */
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}

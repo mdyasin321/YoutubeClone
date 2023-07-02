@@ -1,12 +1,13 @@
 .homescreen{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* here I have given width 82% because Sidebar  accquire 28% */
+    width: 82%;
     padding: 10px;
-    /* align-items: flex-end; */
 }
 .videos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
